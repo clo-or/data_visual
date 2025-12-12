@@ -1,3 +1,5 @@
+import streamlit as st
+
 # : blue [사용자 입력]
 
 ## orange : [텍스트 입력]
