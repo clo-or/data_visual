@@ -1,3 +1,5 @@
+import streamlit as st
+
 # 미디어 삽입
 
 ## 동영상: st.video()
