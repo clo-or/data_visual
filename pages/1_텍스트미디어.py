@@ -69,7 +69,9 @@ def hello_world():
 # 미디어 삽입
 
 ## 이미지: st.image()
-st.image("../data/heart_mask.png", caption="파이썬 로고", use_container_width=True)
+# 현재 .py 파일 기준으로 data 폴더 경로 지정
+data_path = os.path.join(os.path.dirname(__file__), "../data/heart_mask.png")
+st.image(data_path, caption="하트", use_container_width=True)
 
 ## 오디오: st.audio()
 # st.audio("./After_You.mp3", format="audio/mpeg", loop=True)
