@@ -46,7 +46,7 @@ if primary_button:
     st.write('주요 버튼이 클릭되었습니다.')
 
 ### : orange [다운로드 버튼: st.download_button()]
-with open("../data/heart_mask.png", "rb") as file:
+with open("data/heart_mask.png", "rb") as file:
     st.download_button(
         label='이미지 파일 다운로드',  # 버튼 라벨
         data=file,                    # 다운로드할 파일 경로
