@@ -1,8 +1,5 @@
 import streamlit as st
 
-# 타이틀 텍스트 출력
-st.title("Hello, World!")
-
 # 사이드바 설정
 st.sidebar.title('다양한 사이드바 위젯들')
 
