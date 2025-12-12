@@ -69,10 +69,10 @@ def hello_world():
 # 미디어 삽입
 
 ## 이미지: st.image()
-st.image("./data/python.png", caption="파이썬 로고", use_container_width=True)
+st.image("./heart_mask.png", caption="파이썬 로고", use_container_width=True)
 
 ## 오디오: st.audio()
-st.audio("./data/After_You.mp3", format="audio/mpeg", loop=True)
+# st.audio("./After_You.mp3", format="audio/mpeg", loop=True)
 
 ## 동영상: st.video()
 st.video("./data/stars.mp4", format="video/mp4", loop=True)
