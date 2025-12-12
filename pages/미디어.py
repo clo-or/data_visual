@@ -15,13 +15,13 @@ st.image("data/heart_mask.png", use_container_width=True)
 # 콜아웃
 
 ## 정보: st.info()
-st.info('This is a purely informational message', icon="i")
+st.info('This is a purely informational message', icon="🎈")
 
 ### 경고: st.warning()
-st.warning('This is a warning message', icon="A")
+st.warning('This is a warning message', icon="✨")
 
 ## 에러: st.error()
-st.error('This is an error message', icon="")
+st.error('This is an error message', icon="🎊")
 
 #### 성공: st.success()
-st.success('This is a success message', icon="")
+st.success('This is a success message', icon="🎞️")
