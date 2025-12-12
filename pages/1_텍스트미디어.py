@@ -31,3 +31,38 @@ with st.echo():
 st.latex(r'\int_a^b f(x)dx')
 
 st.divider()  # 구분선
+
+# abo 텍스트_미디어.py
+# B: Streamlit Magic
+
+# 마크다운 헤더3
+st.markdown("### 마크다운 헤더3")
+
+# 마크다운 목록
+st.markdown("""
+1. **굵게** 표시
+2. *기울임* 표시
+   - 목록2-1
+   - 목록2-2
+""")
+
+# 마크다운 링크
+st.markdown("[네이버](https://naver.com)")
+st.markdown("[구글](https://google.com)")
+
+# 마크다운 인용
+st.markdown("> Streamlit은 데이터 앱을 쉽게 만들 수 있는 프레임워크입니다.")
+
+# 마크다운 표
+st.markdown("""
+| 헤더1 | 헤더2 |
+|-------|-------|
+| 데이터1 | 데이터2 |
+""")
+
+# 마크다운 코드 블록
+st.code("""
+def hello_world():
+    print("Hello, World!")
+""", language='python')
+
