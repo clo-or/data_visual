@@ -66,3 +66,15 @@ def hello_world():
     print("Hello, World!")
 """, language='python')
 
+# 미디어 삽입
+
+## 이미지: st.image()
+st.image("./data/python.png", caption="파이썬 로고", use_container_width=True)
+
+## 오디오: st.audio()
+st.audio("./data/After_You.mp3", format="audio/mpeg", loop=True)
+
+## 동영상: st.video()
+st.video("./data/stars.mp4", format="video/mp4", loop=True)
+st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 링크
+
