@@ -1,3 +1,5 @@
+import streamlit as st
+
 ### : orange [컬럼: st.columns()]
 col_1, col_2, col_3 = st.columns([1,2,1]) # 컬럼 인스턴스 생성. 1:2:1 비율로 컬럼을 나눔
 
